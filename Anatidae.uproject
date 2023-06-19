@@ -1,15 +1,9 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.1",
+	"EngineAssociation": "5.2",
 	"Category": "",
 	"Description": "",
-	"Modules": [
-		{
-			"Name": "Anatidae",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		}
-	],
+
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
@@ -17,10 +11,17 @@
 			"TargetAllowList": [
 				"Editor"
 			]
+		},
+		{
+			"Name": "VisualStudioTools",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/362651520df94e4fa65492dbcba44ae2",
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
 		}
 	],
 	"TargetPlatforms": [
-		"Windows",
-		"Linux"
+		"Windows"
 	]
 }
